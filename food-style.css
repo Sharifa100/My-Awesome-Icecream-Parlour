@@ -52,3 +52,24 @@ body{
 .half-width2 img{
 width: 80%;
 }
+
+.icecream{
+    display: flex;
+}
+
+.half-width3{
+    width: 33%;
+    padding:0% 5% 0% 5%;
+  border-left: 3px solid;
+    margin:25px;
+    border-radius: 10px;
+   border-image: linear-gradient(orange, blue)30;
+box-shadow: 10px 10px 40px  rgb(240, 234, 234)  ;
+
+}
+.half-width3 img{
+    width:100%;
+}
+#experience-title{
+    margin-right: 15px;
+}
