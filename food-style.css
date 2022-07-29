@@ -13,6 +13,7 @@ h1{
 h2{
     font-size: 30px;
 }
+/* nav bar style from here */
 nav{  display:flex;
     width: 100%;
     height: 75px;
@@ -52,6 +53,9 @@ nav li a{
     text-decoration: none;
     
 }
+/* nav bar style end here */
+
+/* top section style start from here */
 #title-span{
     color:rgb(167, 15, 15);
 }
@@ -85,7 +89,11 @@ nav li a{
     background-image: linear-gradient(red, darkred);
 
 }
-.dream{
+/* top section style end here */
+
+
+/* about us style start from here */
+.about-us{
     display: flex;
     background-image: url(images/dreamback.png);
     background-repeat: no-repeat;
@@ -94,20 +102,29 @@ nav li a{
 }
 .half-width2{
     width:50%;
-    padding: 7%;
+    padding: 5%;
     
    
 }
 .half-width2 img{
-width: 80%;
+width: 85%;
+}
+.about-info{
+    padding-left: 50px;
+    line-height: 2 ;
+    text-align: justify;
 }
 
+/* about us style end here */
+
+
+/* item part style start from here */
 .items-part{
  padding-bottom: 30px;
  
 }
 
-.icecream{
+.icecream-section{
     display: flex;
     margin-bottom: 80px;
 }
@@ -120,7 +137,7 @@ width: 80%;
     border-radius: 20px;
    border-image: linear-gradient(darkred, red);
    border-image-slice: 1;
-box-shadow: 20px 20px 40px  grey  ;
+box-shadow: 0 2px 4px 0 rgba(0,0,0,.2), 0 4px 16px 0 rgba(0,0,0,.2)  ;
 
 }
 .half-width3 img{
@@ -128,15 +145,21 @@ box-shadow: 20px 20px 40px  grey  ;
     width:100%;
    border-radius:30px;
 }
-#experience-title{
+
+#item-title{
     margin-top:50px;
-    margin-right: 15px;
+    margin-left: 15px;
+    border-bottom: 2px solid darkred;
+    width: 120px;
 }
 
+/* item part style end here */
+
+/* social media style start from here */
 .social-media{
 display: flex;
 margin-bottom: 75px;
-box-shadow: 20px 20px 50px rgb(204, 199, 199);
+box-shadow: 0 2px 4px 0 rgba(0,0,0,.2), 0 4px 16px 0 rgba(0,0,0,.2);
 text-align: center;
 padding: 40px;
 
@@ -149,9 +172,13 @@ padding: 40px;
     text-align: center;
     margin-bottom: 70px;
 }
+
+/* social media style end here */
 .email{
     font-weight: bolder;
 }
+
+/* foolter style start here */
 footer{
     text-align: center;
     width: 100%;
@@ -160,3 +187,4 @@ footer{
     padding: 25px;
     color:blanchedalmond;
 }
+/* footer style end here */
