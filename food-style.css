@@ -1,28 +1,74 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+nav{  display:flex;
+    width: 100%;
+    height: 75px;
+    line-height: 60px;
+    position: fixed;
+    padding: 0 100px;
+    background-image: linear-gradient(red, darkred);
+}
+nav .logo p{
+    font-size: 20px;
+    color:rgb(165, 27, 50);
+    font-weight: bolder;
+    float: left;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-top: 0;
+    cursor: pointer;
+    
+}
+
+nav ul {
+float: right;
+    margin-top: 0;
+    display: flex;
+   margin-right: 20px;
+}
+nav li{
    
-}
+    list-style: none;
 
+}
+nav li a{ 
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0 30px;
+   color: bisque;
+    text-decoration: none;
+    
+}
 #title-span{
-    color:crimson;
+    color:rgb(167, 15, 15);
 }
 
-#header{
+.top-part{
     display:flex;
     background-image: url(images/backgroundimg.png);
     background-repeat: no-repeat;
-    
+    background-size: cover;
+   
 }
 
 .half-width{
     
     width:50%;
-    padding:5%;
+    padding:7%;
   
 }
 .half-width img{
-    width: 80%;
+    width:100%;
     
 }
 
@@ -33,7 +79,7 @@ body{
     padding: 10px 40px;
     color: antiquewhite;
     border-radius: 10px;
-    background-image: linear-gradient(orange,crimson);
+    background-image: linear-gradient(red, darkred);
   position: relative;
   
 }
@@ -42,6 +88,7 @@ body{
     background-image: url(images/dreamback.png);
     background-repeat: no-repeat;
   background-position: right;
+  /* margin: 150px; */
 }
 .half-width2{
     width:50%;
@@ -53,23 +100,60 @@ body{
 width: 80%;
 }
 
+.items-part{
+ padding-bottom: 20px;
+ 
+}
+
 .icecream{
     display: flex;
+    margin-bottom: 80px;
 }
 
 .half-width3{
     width: 33%;
-    padding:0% 5% 0% 5%;
-  border-left: 3px solid;
+    padding:0% 2% 0% 2%;
+  border-left: 7px solid;
     margin:25px;
-    border-radius: 10px;
-   border-image: linear-gradient(orange, blue)30;
-box-shadow: 10px 10px 40px  rgb(240, 234, 234)  ;
+    border-radius: 20px;
+   border-image: linear-gradient(darkred, red);
+   border-image-slice: 1;
+box-shadow: 20px 20px 40px  grey  ;
 
 }
 .half-width3 img{
+    padding-top: 25px;
     width:100%;
+   border-radius:30px;
 }
 #experience-title{
+    margin-top:50px;
     margin-right: 15px;
+}
+
+.social-media{
+display: flex;
+margin-bottom: 75px;
+box-shadow: 20px 20px 50px rgb(204, 199, 199);
+text-align: center;
+
+}
+
+.half-width4{
+    width: 50%;
+    }
+.info-part{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.email{
+    font-weight: bolder;
+}
+footer{
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    background-image: linear-gradient(red, darkred);
+    padding: 25px;
+    color:blanchedalmond;
 }
